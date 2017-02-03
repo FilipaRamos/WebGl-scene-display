@@ -87,7 +87,7 @@ MyInterface.prototype.processKeyboard = function(event) {
 	// for better cross-browser support, you may also check suggestions on using event.which in http://www.w3schools.com/jsref/event_key_keycode.asp
 	switch (event.keyCode)
 	{
-		
+		/*
 		case(65): //A
 			console.log("Key 'A' pressed");
 			this.scene.Akey();
@@ -127,6 +127,6 @@ MyInterface.prototype.processKeyboard = function(event) {
 		case(111)://o
 			console.log("Key 'o' pressed");
 			this.scene.robot.setHand();
-			break;
+			break;*/
 	};
 };
